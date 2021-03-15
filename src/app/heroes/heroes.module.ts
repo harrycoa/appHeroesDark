@@ -10,13 +10,15 @@ import { HeroesRoutingModule } from './heroes-routing.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { MaterialModule } from './../material/material.module';
+import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 @NgModule({
   declarations: [
     AgregarComponent,
     BuscarComponent,
     HeroesComponent,
     HomeComponent,
-    ListadoComponent],
+    ListadoComponent,
+    HeroeTarjetaComponent],
   imports: [
     CommonModule,
     FlexLayoutModule ,
